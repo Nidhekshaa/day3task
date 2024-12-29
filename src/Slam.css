@@ -1,0 +1,65 @@
+body {
+    background-image: url(https://img.freepik.com/premium-photo/beautiful-flowers-background-light-blooming-pattern-color-flower-mockup-floral-banner_162695-48460.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    background-color: rgb(211, 241, 238);
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 90%;
+    box-shadow: 0 4px 8px rgb(255, 255, 255);
+    display: flex;
+    width: 300px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+textarea {
+    height: 60px;
+    width: 100%;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+    
+}
+
+legend{
+    font-size: 16px;
+    font-weight: bold;
+    text-align:center;
+}
+
+button {
+    background-color: rgb(126, 226, 216);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: rgb(45, 238, 219);
+}

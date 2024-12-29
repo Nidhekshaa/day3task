@@ -1,0 +1,9 @@
+h1{
+  color: rgb(187, 0, 255);
+  background-color: rgb(228, 232, 166);
+  text-align: center;
+  margin-left: 500px;
+  margin-right: 500px;
+  border-radius: 50px;
+  padding: 10px;
+}
